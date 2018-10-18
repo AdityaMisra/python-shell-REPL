@@ -5,6 +5,7 @@ from prompt_toolkit.contrib.completers import SystemCompleter
 
 from pygments.lexers.python import Python3Lexer
 
+
 while True:
     inp = prompt(u'>>>', history=FileHistory('/tmp/history.txt'), auto_suggest=AutoSuggestFromHistory())
     try:
